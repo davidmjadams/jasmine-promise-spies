@@ -8,9 +8,9 @@
   jasmine.Spy.prototype.andReturnPromise = function(value) {
     this.plan = function() {
       return  {
-          then: function (value) {
+          then: (function (value) {
             return value;
-          }
+          }())
       };
     };
     return this;
