@@ -1,0 +1,29 @@
+{
+  "name": "jasmine-promise-spies",
+  "version": "1.0.0",
+  "description": "A small extension to Jasmine spies to allow a promise to be returned",
+  "main": "andReturnPromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungrydavid/jasmine-promise-spies.git"
+  },
+  "keywords": [
+    "Jasmine",
+    "promise",
+    "spies",
+    "spy",
+    "mock"
+  ],
+  "author": "David Adams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungrydavid/jasmine-promise-spies/issues"
+  },
+  "homepage": "https://github.com/hungrydavid/jasmine-promise-spies#readme",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
